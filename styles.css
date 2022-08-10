@@ -1,0 +1,203 @@
+
+    #container{
+        height:500px;
+        width:100%;
+        margin-top:10px;
+        display:flex;
+        gap:20px;
+        background-color:#E7ECf0;
+        flex:wrap;
+    }
+    #Cont__one{
+        width: 300px;
+        height: 200px;
+        margin-top: 10px;
+        margin-left: 100px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        background-color:white;
+        grid-area: b1;
+    }
+    .Cont__two{
+        width: 500px;
+        height: 450px;
+        margin-top: 10px;
+        /* border:1px solid black; */
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        background-color: white;
+        grid-area: b2;
+    }
+    .Cont__three{
+        width: 300px;
+        height: 200px;
+        margin-top: 10px;
+        /* border:1px solid black; */
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        background-color: white;
+        grid-area: b3;
+    }
+     .name{
+        height:80px;
+        width: 100%;
+        border: 1px solid black;
+        background-color: black;
+
+     }
+    .fa-solid-image{
+     height: 50px;
+     border-radius: 50%;
+     width:50px;
+     border: 1px solid white;
+     background-color: #C59C68;
+     margin-top:-20px;
+     margin-left:20px;
+    }
+    .Cont_title{
+        height:80px;
+        color: white;
+        text-align: center;
+    }
+    .photo__name{
+        display: flex;
+    }
+    .myname{
+        margin-top:-3px;
+        margin-left:10px;
+    }
+    .Cont__one__notification{
+        margin-top:-5px;
+        display: flex;
+        justify-content:space-evenly;
+        word-spacing:20px;
+        color: grey;
+    }
+    .Cont__one__number{
+        display: flex;
+        justify-content:space-evenly;
+        word-spacing:60px;
+        margin-left:-30px; 
+        margin-top:-10px;
+        color: dodgerblue;
+    }
+    .box1{
+    height:80px;
+     /* border: 1px solid red; */
+    }
+    .box2{
+    height:100px;
+     /* border: 1px solid red; */
+    }
+    .box3{
+     height:70px;
+     /* border: 1px solid red; */
+    }
+    .box4{
+        height:70px;
+        /* border: 1px solid red; */
+        margin-top:-10px;
+    }
+    .Cont__two__box1{
+     display:flex;
+    }
+    .color__myname{
+        color: grey;
+        margin-left:-40px;
+    }
+    .fa-solid-image1{
+     height: 50px;
+     border-radius: 50%;
+     width:50px;
+     border: 1px solid white;
+     background-color: #C59C68;
+     margin-left:20px;
+     margin-top: 5px;
+    }
+    .Cont__two__box1-1{
+        margin-top:14px;
+        margin-left:10px;
+    }
+    .mid{
+        margin-left:10px;
+        color: grey;
+    }
+    .sentence{
+        margin-top:-20px;
+        margin-left:90px;
+        width:80%;
+    }
+    .buton{
+        margin-left:100px;
+        margin-top:-20px;
+    }
+    .buton>button{
+        background-color: white;
+        color: #4BB3F2;
+        border: 1px solid dodgerblue;
+        border-radius: 40%;
+        height:30px; 
+    }
+    .buton>button:hover{
+        background-color: #4BB3F2;
+        color: white;
+        cursor: pointer;
+    }
+  .Cont__three_title{
+    margin-left:30px;
+  }
+  #navbar>.navbar__tabs{
+   height:50px;
+   width:35%;
+   margin-left:105px;
+   display: flex;
+   justify-content: space-around;
+   color: #6C757C;
+  }
+  #navbar>.navbar__tabs:hover{
+    color: blue;
+    cursor: pointer;
+  }
+  .navbar__buton{
+    display: flex;
+    justify-content:flex-end;
+    margin-right:40px;
+  }
+  .navbar__buton>button{
+    border: 1px solid dodgerblue;
+    border-radius: 40%;
+    position: fixed;
+    margin-top:-40px;
+    height: 40px;
+    width:100px;
+    background-color:#4BB3F2;
+    color:white;
+  }
+  .navbar__buton>button:hover{
+    background-color: blue;
+    cursor: pointer;
+  }
+  .font__awesome{
+    color: dodgerblue;
+    font-size:25px;
+    margin-left:50%;
+    margin-top:-35px;
+  }
+
+  @media only screen and (max-width: 1025px) {
+#container{
+    display:list-item; 
+    height: auto;
+}
+#Cont__one{
+    width:100%;
+    margin-left: 0px;
+}
+#container>.Cont__two{
+    width:100%;
+
+}
+#container>.Cont__three{
+    width:100%;
+}
+
+  }
+
+
